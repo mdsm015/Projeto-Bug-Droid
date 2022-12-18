@@ -1,0 +1,211 @@
+/*Fontes importadas*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+
+* {
+     padding: 0px;
+     margin: 0px;
+}
+
+
+:root {
+     --color1: #104E61;
+     --color2: #6CC9E6;
+     --color3: #26B5E0;
+     --color4: #285461;
+     --color5: #1D8CAD;  
+}
+
+body {
+     background-color:#d5e4e6a6;
+}
+
+header {
+     background: rgb(255,255,255);
+     background: linear-gradient(183deg, #9fddf1 0%, #2074bd 87%, #086de0 100%, #2c6124 100%);
+     padding-top: 20px;
+     padding-bottom: 0px;
+     min-width: 100%;
+}
+
+header > nav {
+     background-color: #136f8b00;
+     padding: 10px;
+     max-width: 100%;
+     
+}
+
+
+header > h1 {
+     text-align: center;
+     color: #fff;
+     padding-bottom: 25px;
+     text-shadow:  -1px 2px 3px #000000cc;
+}
+header > p {
+     font-family: 'Roboto Slab', serif;
+     color: #fff;
+     text-align: center;
+}
+
+header > nav > a {
+     color: #fff;
+    
+     padding: 10px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+
+     border-radius: 4px;
+     font-family: Arial, Helvetica, sans-serif;
+     text-decoration: none;
+     font-weight: bolder;
+     font-size: 13px;
+     margin-left: 20px;
+     
+}
+
+header > nav > a:hover {
+     background-color: var(--color2);
+     color: var(--color1);
+     transition-duration: 0.5s; 
+}
+
+
+/*  Main  */
+
+main {
+     max-width: 800px;
+     min-width: 300px;
+     height: 100%;
+     background-color: #fff;
+     margin: auto;
+
+}
+
+main > section {
+     padding: 40px;
+    
+}
+
+main > section > P {
+     text-align: justify;
+     text-indent: 35px;
+     padding-top: 15px;
+}   
+
+main > section > h1 {
+     font-family: 'Press Start 2P', cursive;
+     color: var(--color1);
+
+}
+
+section > h2 {
+     font-family: 'Press Start 2P', cursive;
+     font-size: 18px;
+     margin-top: 25px;
+     padding: 3px;
+     color: var(--color1);
+     background: rgb(255,255,255);
+     background: linear-gradient(242deg, rgba(255, 255, 255, 0.308) 0%, rgba(19, 100, 170, 0.281) 100%, rgba(95,130,103,1) 100%, rgba(44,97,36,1) 100%);
+}
+
+section > P > span {
+     color: var(--color3);
+}
+
+section > picture > img {
+    max-width: 100%;
+    height: auto;
+}
+
+.irina {
+     padding-top: 25px;
+}
+
+.bug-droid {
+     display: block;
+     margin: auto;
+}
+
+.video {
+     background-color:var(--color3) ;
+     max-width: 100%;
+     padding: 20px;
+     margin: auto; 
+}
+
+iframe {
+     display: block;
+     margin: auto;
+     max-width: 100%;
+     
+}
+
+/* APRENDER MAIS*/
+
+h3 {
+     font-family: Arial, Helvetica, sans-serif;
+     background-color: var(--color5);
+     padding: 5px 0px 5px 15px;
+     border-radius: 8px 8px 0px 0px;
+     color: #fff;
+     
+}
+
+ul li,abbr {
+     text-decoration: none;
+}
+
+aside {
+     background-color: var(--color2);
+     border-radius: 8px;
+     padding-bottom: 20px;
+     font-family: Arial, Helvetica, sans-serif;
+     box-shadow: 0px 2px 7px #000000cc;;
+     
+
+     
+}
+
+aside > p {
+     padding-top: 10px;
+     padding-left: 5px;
+     
+     text-indent: 30px;
+     
+} 
+
+aside > ul {
+     columns: 2;
+     list-style-position: inside;
+     padding-top: 20px;
+     padding-left: 20px;
+     list-style-type: '\1F5F8';
+     
+
+}
+ 
+aside > p > a {
+     text-decoration: none;
+     font-weight: bolder;
+}
+
+aside > p > a:hover {
+     text-decoration: underline;
+     color: var(--color4);
+     
+}
+
+p {
+     line-height: 1.2em;
+}
+
+footer {
+     background-color: var(--color5);
+     width: 100%;
+     text-align: center;
+     padding: 3px;
+     color: #fff;
+}
